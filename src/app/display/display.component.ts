@@ -7,7 +7,6 @@ import {products } from '../products'
   styleUrls: ['./display.component.css']
 })
 export class DisplayComponent implements OnInit {
-  products = products;
   constructor() { }
 
   ngOnInit() {
